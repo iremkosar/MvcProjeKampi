@@ -34,5 +34,10 @@ namespace DataAccessLayer.Concrete.Repositories
         {
             c.SaveChanges();
         }
+        public List<Category> List(System.Linq.Expressions.Expression<Func<Category, bool>> filter)
+        {
+            return _object.Where(filter).ToList();
+        }
+
     }
 }
