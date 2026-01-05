@@ -63,6 +63,3 @@ Hazır tema uyarlama ve özelleştirme mantığı
 
 
 
-![image alt]()
-
-![image alt]()
